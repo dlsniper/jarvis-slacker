@@ -1,0 +1,13 @@
+application: <your AppEngine project ID goes here>
+version: 4
+runtime: go
+api_version: go1
+
+skip_files:
+- keys.go.dist
+- ^.idea$
+- ^(.*/)?\.iml$
+
+handlers:
+- url: /.*
+  script: _go_app

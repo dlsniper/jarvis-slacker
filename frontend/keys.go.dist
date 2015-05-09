@@ -1,0 +1,8 @@
+package frontend
+
+var (
+	keys = map[string]string{
+		"someKey": "someValue",
+		"someOtherKey": "someOtherValue",
+	}
+)
